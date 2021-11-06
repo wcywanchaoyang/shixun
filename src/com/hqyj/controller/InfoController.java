@@ -21,7 +21,7 @@ import java.util.List;
 public class InfoController extends HttpServlet {
 
     InfoService infoService =  new InfoService();
-
+    //增加功能
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         resp.setContentType("text/html;charset=utf-8");
