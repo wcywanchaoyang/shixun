@@ -19,6 +19,7 @@ import java.util.List;
 
 @WebServlet({"/info","/info/selectCurYingqing","/selectPName","/selectyiqingPName","/info/selectFiveConfrimByPName"})
 public class InfoController extends HttpServlet {
+
     InfoService infoService =  new InfoService();
 
     @Override
